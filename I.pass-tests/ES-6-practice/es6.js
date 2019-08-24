@@ -1,17 +1,15 @@
 // Turn this function into an arrow function
-function arrow() {
-  return "es6 is awesome!";
-}
+arrow = () => "es6 is awesome!";
 
 //Use the es6 syntax for default parameter
-function defaultParameter(name) {
-  var name = name || "sam";
+function defaultParameter(name = "sam") {
   return name;
 }
 
 // Use the spread operator to combine arr1 and arr2
 function combineArrays(arr1, arr2) {
-  return arr1.concat(arr2);
+  // return arr1.concat(arr2);
+  return (arr3 = [...arr1, ...arr2]);
 }
 
 //use destructuring to return the object's cyf property
