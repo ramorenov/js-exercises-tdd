@@ -29,5 +29,5 @@ module.exports = removeVowels;
 
   what is the value of result?
 */
-result = removeVowels(removeVowels("samuel"));
+result = removeVowels("samuel");
 console.log(result);
